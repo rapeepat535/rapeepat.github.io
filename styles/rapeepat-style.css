@@ -24,3 +24,16 @@ body {
     text-shadow: 3px 3px 2px black;
     font-family: 'Open Sans', sans-serif;
 }
+
+#heading {
+    color: blue;
+}
+
+figcaption {
+    text-align: center;
+}
+
+li.popular {
+    border: 4px dotted red;
+
+}

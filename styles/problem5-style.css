@@ -1,0 +1,440 @@
+body {
+    font-family: 'Duru Sans', sans-serif;
+    background-color: #fafbfb;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    position: absolute;
+    width: 210px;
+    padding: left;
+    height: 200px;
+    top: 535px;
+    right: 10px;
+    border: 2px solid #130F22;
+    border-radius: 5%;
+}
+
+.more_about_me {
+    font-size: 12px;
+    position: absolute;
+    top: 125px;
+    right: 10px;
+}
+
+table, th, td {
+    
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: right;
+    padding-right: 2px;
+    height: 50px;
+    
+}
+
+body {
+    margin: 0;
+}
+ul.navigator {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #130F22;
+}
+
+
+ul.circleList {
+    list-style-type: circle;
+}
+
+.left {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    margin-left: 20px;
+}
+
+li a:hover {
+    background-color: rgb(1, 255, 158);
+    color: black;
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+#description {
+    padding-top: 10px;
+}
+
+.contact {
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 5px;
+}
+.center {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile_picture {
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.profile {
+    background: #1C2433;
+    width: 276px;
+    height: 595px;
+    text-align: center;
+    overflow: auto;
+    float: left;
+}
+
+.resume {
+    float: left;
+    width: 842px;
+    height: 595px;
+    margin: auto;
+    margin-top: 75px;
+    position: relative;
+}
+
+.resume_info_header {
+    width: 473px;
+    height: 60px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.sky_text {
+    color: #83F6F6;
+}
+
+.resume_info {
+    background: #130F22;
+    width: 566px;
+    height: 595px;
+    float: left;
+    text-align: left;   
+}
+
+.education {
+    float: left;
+    width: 285px;
+    height: 170px;
+    margin-left: 20px;
+    margin-bottom: 110px;  
+    border-left: 3px solid #0D375E; 
+}
+
+.expirience {
+    float: left;
+    width: 222px;
+    height: 170px;
+    margin-bottom: 110px;  
+    border-left: 3px solid #0D375E;
+    
+}
+.contact_info {
+    padding-top: 10px;
+}
+
+.address_info {
+    padding-top: 10px;
+}
+
+a:link {
+    color: rgb(98, 200, 255);
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: skyblue;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: rgba(111, 0, 255, 0.433);
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.blue_line {    
+    position: absolute;
+    height: 1px;
+    background: #7EF5FD;
+}
+
+.blue_line02 {    
+    position: absolute;
+    left: 299px;
+    height: 1px;
+    background: #7EF5FD;
+}
+
+#edu_header{
+    float: left;
+    width: 287px;
+    height: 60px;
+}
+
+#ex_header {
+    float: left;
+    height: 60px;
+    width: 186px;
+}
+
+.elipse_1 {  
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: 292px;
+    top: 126px;
+    background: #ffff;
+    border-radius: 50%;
+    z-index: 150;
+}
+
+.elipse_2 {  
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    margin-top: 80px;
+    margin-left: 15.5px;
+    background: #ffff;
+    border-radius: 50%;
+    z-index: 150; 
+}
+
+.edu_bar {
+    position: absolute;
+    width: 150px;
+    height: 3px;
+    left: 222.5px;
+    top: 193px;
+    background: #7EF5FD;
+    z-index: 100;
+    transform: rotate(90deg);
+}
+
+.khonkaen_edu {
+    margin-top: 23px;
+    font-size: 14px;
+    color: #83F6F6;
+    padding-left: 10px;
+}
+
+.kku_year {
+    position: absolute;
+    font-size: 10px;
+    top: 130px;
+}
+
+.kku_list {
+    position: absolute;
+    color: white;
+    font-size: 10px;
+    left: 320px;
+}
+
+.pcm_edu {
+    margin-top: 37px;
+    font-size: 14px;
+    color: #83F6F6;
+    padding-left: 10px;
+}
+
+.pcm_year {
+    position: absolute;
+    font-size: 10px;
+    top: 184px;
+}
+
+.pcm_list {
+    position: absolute;
+    color: white;
+    font-size: 10px;
+    left: 280px;
+    top: 200px;
+}
+
+.ex_bar {
+    position: absolute;
+    width: 150px;
+    height: 3px;
+    left: 510.5px;
+    top: 193px;
+    background: #7EF5FD;
+    z-index: 100;
+    transform: rotate(90deg);
+}
+
+.elipse_3 {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: 580px;
+    top: 126px;
+    background: #ffff;
+    border-radius: 50%;
+    z-index: 150;
+}
+
+.game_dev {
+    margin-top: 23px;
+    font-size: 14px;
+    color: #83F6F6;
+    padding-left: 10px;
+}
+
+.game_list {
+    position: absolute;
+    color: white;
+    font-size: 10px;
+    left: 571px;
+    top: 135px;
+}
+
+.programming_language {
+    margin-top: 35px;
+    margin-left: 13px;
+    float: left;
+    width: 270px;
+    height: 152px;
+    font-size: 14px;
+    text-align: center;
+    color: #83F6F6;   
+  
+}
+
+.language {
+    margin-top: 35px;
+    float: left;
+    width: 270px;
+    height: 152px;
+    font-size: 14px;
+    text-align: center;
+    color: #83F6F6;   
+    
+}
+
+.pgl {
+    color: white;
+    text-align: left;
+}
+
+.blackened_skill_bar01 {
+    position: absolute;
+    width: 200px;
+    height: 15px;
+    top: 468px;
+    left: 353px;
+    background: #0D375E;
+    z-index: 50;
+}
+
+.blackened_skill_bar02 {
+    position: absolute;
+    width: 200px;
+    height: 15px;
+    top: 489px;
+    left: 353px;
+    background: #0D375E;
+    z-index: 50;
+}
+
+.blackened_skill_bar03 {
+    position: absolute;
+    width: 200px;
+    height: 15px;
+    top: 510px;
+    left: 353px;
+    background: #0D375E;
+    z-index: 50;
+}
+
+.blackened_skill_bar04 {
+    position: absolute;
+    width: 200px;
+    height: 15px;
+    top: 531px;
+    left: 353px;
+    background: #0D375E;
+    z-index: 50;
+}
+
+.whitened_bar01 {
+    position: absolute;
+    width: 67px;
+    height: 15px;
+    top: 468px;
+    left: 353px;
+    background: #0EEDFB;
+    z-index: 100;
+}
+
+.whitened_bar02 {
+    position: absolute;
+    width: 87px;
+    height: 15px;
+    top: 489px;
+    left: 353px;
+    background: #0EEDFB;
+    z-index: 100;
+}
+
+.whitened_bar03 {
+    position: absolute;
+    width: 73px;
+    height: 15px;
+    top: 510px;
+    left: 353px;
+    background: #0EEDFB;
+    z-index: 100;
+}
+
+.whitened_bar04 {
+    position: absolute;
+    width: 58px;
+    height: 15px;
+    top: 531px;
+    left: 353px;
+    background: #0EEDFB;
+    z-index: 100;
+}
+
+.language_head {
+    float: left;
+    color: white;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.language_result {
+    float: left;
+    text-align: left;
+    margin-left: 50px;
+    
+}

@@ -1,159 +1,28 @@
 <!DOCTYPE html>
 <html>
+    
     <head>
         <meta charset="UTF-8">
-        <link href="styles\problem5-style.css" rel="stylesheet" type="text/css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Duru+Sans&display=swap" rel="stylesheet">
+        <title> Rapeepat's webpage</title>
+        <link href="styles\rapeepat-style.css" rel="stylesheet" type="text/css">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
     </head>
     <body>
-        <ul class="navigator">
-            <li class="left"><a class = "active" href="">Home</a></li>
-            <li class="left"><a href="https://rapeepat535.github.io/1st_web">Lab 1</a></li>     
-         </ul>
-
-         <div class="more_about_me">
-            
-            <table>
-                <tr>
-                    <th colspan="2" style="text-align: center; font-size: 20px;"> A little bit more about me</th>
-                </tr>
-                <tr>
-                    <th>My favorite food</th>
-                    <th>Pork & holy basil stir-fly</th>
-                </tr>
-                <tr>
-                    <th ">My Instragram</th>
-                    <th><a style="color: purple;" href="https://www.instagram.com/unidentified_01010000/">Here</a></th>
-                </tr>
-                
-            </table>
-         </div>
-
-        <div class="form">
-               <form>
-                <p style="font-size: 12px; font-weight: bold;">If you have any question please let me know.</p>
-                <label for="email">E-mail</label><br>
-                <input type="text" id="email" name="email" value="xyz@abc.com"><br>
-                <label for="question">Question:</label><br>
-                <input type="question" id="question" name="question" value=""><br><br>
-                <input type="submit" value="Submit">
-                
-              </form> 
+        <div class="main_container">
+             <h1 id="KKUtext">Khon Kaen University</h1>
+        <img src="images\kkupic01.jpg" alt="There is supposed to be picture here" width="200px" height="150px" >
+        <figure>
+            <img src="images\KKU convention hall.jpg" alt="Golden Jubilee Convention Hall" width="200px" height="150px">
+            <figcaption> Golden Jubilee Convention Hall</figcaption>
+        </figure>
+        <p id="heading">Khone Kaen University has many outstanding places</p>
+        <ul>
+            <li class="popular">ศาลเจ้าพ่อมอดินแดง</li>
+            <li>พิพิธภัณฑ์ธรรมชาติวิทยา มข</li>
+            <li class="popular">อุโมงต้นไม้</li>
+        </ul>
+        <p>For more information please click this <a href="https://m.kku.ac.th/">link</a></p>
         </div>
-        
-        
-        <div class="resume">
-            
-            <div class="profile">
-                <div class="profile_picture">
-                    <img src="images\profile_pic.png" alt="" width="130px" height="160px">
-                </div>
-                <div class="about_me">
-                    <header class="sky_text" style="font-size: 20px;line-height: 0.5em;">RAPEEPAT PIYANATE</header>
-                    <p style="font-size: 12px; color: white;line-height: 0.5em;">An ordinary student</p>
-                    <div id="description">
-                        <p style="font-size: 12px; color: #83F6F6;line-height: 0.25em;">ABOUT ME</p>
-                        <p style="font-size: 12px; color: white;">I’m 3rd Year Computer Engineering <br> Student who interest in game <br> development and web application  <br>development</p>
-                    </div>
-                    <div class="contact">
-                        <p style="font-size: 12px; color: #83F6F6;line-height: 0.25em;">CONTACT</p>
-                        <div class="contact_info">
-                            <p style="font-size: 12px; color: white;line-height: 0.30em;">Email: rapeepat535tot@gmail.com</p>
-                            <p style="font-size: 12px; color: white;line-height: 0.30em;"><a href="https://www.facebook.com/rapeepat.piyanate/">Facebook: Rapeepat Piyanate</a></p>
-                            <p style="font-size: 12px; color: white;line-height: 0.30em;">Tel: 095-295-7917</p>
-                        </div>
-                        <div class="address_info">
-                            <p style="font-size: 12px; color: #83F6F6;line-height: 0.25em;">ADDRESS</p>
-                            <p style="font-size: 12px; color: white;line-height: 1.30em;">
-                                805 Thepthongchai road, Muang Pak<br>
-                                Pak Thong Chai, Nakhonratchasrima<br>
-                                30150</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="resume_info">
-                <div class="edu_ex_panel">
-                    <div class="resume_info_header">
-                        <div id="edu_header">
-                            <p style="font-size: 20px; color: #83F6F6;line-height: 0.25em;">EDUCATION</p>
-                            <hr class="blue_line" style="width: 199px;">
-                        </div>
-                        <div id="ex_header">
-                            <p style="font-size: 20px; color: #83F6F6;line-height: 0.25em;">EXPIRIENCE</p>
-                            <hr class="blue_line" style="width: 187px;">
-                        </div>
-                    </div>
-                    <div class="elipse_1"></div>
-                    <div class="elipse_2"></div>
-                    <div class="education">
-                        <div class="edu_bar"></div>
-                        <div class="khonkaen_edu">
-                            <header>Khone Kaen University</header>
-                            <p class="kku_year">2020 - present</p>
-                            <ul>
-                                <li class="kku_list">Computer Engineering (3rd year student)</li>
-                            </ul>
-                        </div>
-                        <div class="pcm_edu">
-                            <header>Pakthongchai Prachaniramit School</header>
-                            <p class="pcm_year">2014 - 2020</p>
-                            <ul class="pcm_list">
-                                <li>Mathematics-Science Programme</li>
-                                <li>Graduated with cumulative GPA 3.60</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="expirience">
-                        <div class="ex_bar"></div>
-                        <div class="elipse_3"></div>
-                        <div class="game_dev">
-                            <header>Game Development</header>
-                            <ul class="game_list">
-                                <li>The 1st year game project named<br>
-                                    “ Vocab Adventures” which developed<br>
-                                    by using Unity Engine
-                                    </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                    <p style="font-size: px; color: #83F6F6;line-height: 0.15em; text-align: center; padding-right: 10px;">SKILLS</p>
-                    <hr class="blue_line02" style="width: 520px;">
-                    <div class="programming_language">
-                        <header>Programming Language</header>
-                        <p class="pgl">Python<br>Java<br>C#<br>HTML</p>
-                        <div class="blackened_skill_bar01"></div>
-                        <div class="blackened_skill_bar02"></div>
-                        <div class="blackened_skill_bar03"></div>
-                        <div class="blackened_skill_bar04"></div>
-                        <div class="whitened_bar01"></div>
-                        <div class="whitened_bar02"></div>
-                        <div class="whitened_bar03"></div>
-                        <div class="whitened_bar04"></div>
-                            
-                        </div>
-                        <div class="language">
-                            <header>Language</header>
-                            <div class="language_head">
-                                <p>English<br>
-                                    Spanish <br>
-                                    Thai <br>
-                                </p>
-                            </div>
-                            <div class="language_result">
-                                <p>Intemediate<br>
-                                    Beginner<br>
-                                    Native
-
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    
-            </div>   
-        </div>  
+       
     </body>
 </html>

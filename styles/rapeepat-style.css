@@ -1,21 +1,72 @@
 html {
     background-color: rgb(255, 140, 9);
     font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 25px;
 }
 
 
 img {
     display: block;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    max-width: 300px;
+    max-height: 275px;
+    object-fit: contain;
 }
 
-body {
+.main_container {
+    box-sizing: content-box;  
     border: 5px dotted black;
     width: 600px;
-    margin: 0 auto;
-    background-color: rgb(144, 62, 4);
+    height: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(144, 62, 4);
     padding: 0 20px 20px 20px;
 }
+
+ @media  (max-width:667px) and (orientation: portrait){
+    body {
+        font-size: 17px;
+    }
+
+    .main_container {
+        box-sizing: content-box;  
+        border: 5px dotted black;
+        width: 275px;
+        height: 667x;
+        margin-top: 15px;
+        background: rgb(144, 62, 4);
+        
+    }
+}
+
+
+
+
+
+
+@media (min-width:820px) and (max-width:1180px) {
+    body {
+        font-size: 30px;
+        line-height: 1.5em;
+    }
+
+    .main_container {
+        box-sizing: content-box;  
+        border: 5px dotted black;
+        width: 700px;
+        height: 900px;
+        margin-top: 15px;
+        background: rgb(144, 62, 4);
+    }
+
+}
+
+
+ 
 
 #KKUtext {
     text-align: center;

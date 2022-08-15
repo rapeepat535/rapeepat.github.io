@@ -12,8 +12,6 @@ function prob_2() {
         } else {
             num = Number(num);
             if (Number.isInteger(num) == false) {
-                alert("input is " + num);
-                alert("Not an integer");
                 continue;
             } else if (num < 0) {
                 if (inputNum.length == 0) {
@@ -26,7 +24,6 @@ function prob_2() {
                 }
             } else {
                 inputNum.push(num);
-                alert(inputNum);
                 sum = sum + num
                 counter = counter + 1
             }
@@ -34,5 +31,3 @@ function prob_2() {
         
     }
 }
-
-

@@ -1,11 +1,25 @@
 const primeNum = [];
-while (num < 0 || num == null  || Number.isInteger(num) == false)
+
+while (true)
     {
-        var num = prompt("Enter a positive integer");
-        num = Number(num)
+        let num = prompt("Enter a positive integer");
+        if (num === "") {
+            continue;
+        } else {
+            num = Number(num);
+            if ((Number.isInteger(num) == false) || (num < 0)) {
+                continue;
+            } else {
+                showPrimes(num)
+                alert("For n = " + num + " prime numbers are " + primeNum)
+                break
+            }
+        }
+        
     }
-    showPrimes(num)
-    alert("For n = " + num + " prime numbers are " + primeNum)
+
+
+
 
 function showPrimes(num) {
     for (let i =2; i < num; i++) {
